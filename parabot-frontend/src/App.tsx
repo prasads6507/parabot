@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Paraphraser from './tools/Paraphraser';
 import Summarizer from './tools/Summarizer';
 import GrammarChecker from './tools/GrammarChecker';

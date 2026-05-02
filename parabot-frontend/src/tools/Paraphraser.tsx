@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-const API = 'http://localhost:5000';
+import API from '../config';
+
 const modes = ['fluency', 'formal', 'creative', 'expand', 'shorten', 'humanize'];
 
 export default function Paraphraser() {

@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-const API = 'http://localhost:5000';
+import API from '../config';
+
 interface ToneResult { primary: string; secondary: string; confidence: number; }
 
 const toneEmojis: Record<string, string> = {

@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-const API = 'http://localhost:5000';
+import API from '../config';
+
 
 export default function CitationGenerator() {
   const [text, setText] = useState('');
