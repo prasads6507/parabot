@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ParaBot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="logo">P</span>
+      <div>
+        <h1>ParaBot</h1>
+        <span class="subtitle">AI Writing Suite</span>
+      </div>
+    </div>
+    
+    <textarea id="inputText" placeholder="Enter text…"></textarea>
+    
+    <div class="controls">
+      <select id="toolSelect">
+        <option value="paraphrase">✍️ Paraphrase</option>
+        <option value="summarize">📝 Summarize</option>
+        <option value="grammar">✅ Grammar</option>
+        <option value="tone">🎭 Tone</option>
+        <option value="ai-detect">🤖 AI Detect</option>
+      </select>
+      <select id="modeSelect">
+        <option value="fluency">Fluency</option>
+        <option value="formal">Formal</option>
+        <option value="creative">Creative</option>
+        <option value="expand">Expand</option>
+        <option value="shorten">Shorten</option>
+        <option value="humanize">Humanize</option>
+      </select>
+    </div>
+
+    <button id="actionBtn">Go</button>
+    
+    <div id="loading" class="hidden">Processing…</div>
+    <div id="outputArea" class="output-area">
+      <textarea id="outputText" placeholder="Result…" readonly></textarea>
+    </div>
+    
+    <button id="copyBtn" class="copy-btn hidden">📋 Copy Result</button>
+    
+    <a href="http://localhost:5173" target="_blank" class="open-app">Open Full App →</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
