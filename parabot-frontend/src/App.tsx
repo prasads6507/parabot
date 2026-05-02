@@ -41,7 +41,7 @@ function App() {
             </div>
             <div className="flex flex-col">
               <span className="text-[17px] font-bold text-[#1d1d1f] tracking-tight leading-tight">ParaBot</span>
-              <span className="text-[10px] font-medium text-[#86868b] leading-tight">AI Writing Suite</span>
+              <span className="text-[10px] font-medium text-[#86868b] leading-tight">parabot.ai</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -79,7 +79,7 @@ function App() {
       {/* ═══ FOOTER ═══ */}
       <footer className="text-center py-8">
         <p className="text-[11px] font-medium text-[#d1d1d6] tracking-widest uppercase">
-          ParaBot &mdash; AI Writing Suite
+          ParaBot &mdash; parabot.ai
         </p>
       </footer>
     </div>

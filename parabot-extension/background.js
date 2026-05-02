@@ -1,4 +1,5 @@
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://parabot-nine.vercel.app";
+
 
 // ─── Create context menus on install ───
 chrome.runtime.onInstalled.addListener(() => {

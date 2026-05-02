@@ -4,7 +4,7 @@
   "version": "2.0",
   "description": "Paraphrase, Summarize, Check Grammar, Detect Tone & AI Content — all from your browser.",
   "permissions": ["storage", "contextMenus", "activeTab", "scripting", "notifications"],
-  "host_permissions": ["http://localhost:5000/*"],
+  "host_permissions": ["https://parabot-nine.vercel.app/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
