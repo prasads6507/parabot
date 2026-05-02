@@ -39,7 +39,10 @@ function App() {
             <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: '#1d1d1f' }}>
               <span className="text-white font-extrabold text-sm">P</span>
             </div>
-            <span className="text-[17px] font-bold text-[#1d1d1f] tracking-tight">ParaBot</span>
+            <div className="flex flex-col">
+              <span className="text-[17px] font-bold text-[#1d1d1f] tracking-tight leading-tight">ParaBot</span>
+              <span className="text-[10px] font-medium text-[#86868b] leading-tight">AI Writing Suite</span>
+            </div>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-[6px] h-[6px] rounded-full bg-emerald-500"></div>
@@ -49,7 +52,7 @@ function App() {
       </header>
 
       {/* ═══ NAVIGATION ═══ */}
-      <nav className="sticky top-[49px] z-40 bg-white/70 backdrop-blur-xl" style={{ borderBottom: '0.5px solid rgba(0,0,0,0.06)' }}>
+      <nav className="sticky top-[54px] z-40 bg-white/70 backdrop-blur-xl" style={{ borderBottom: '0.5px solid rgba(0,0,0,0.06)' }}>
         <div className="max-w-[1120px] mx-auto px-6">
           <div className="flex gap-1 overflow-x-auto py-2" style={{ scrollbarWidth: 'none' }}>
             {tools.map((tool) => (
@@ -75,8 +78,8 @@ function App() {
 
       {/* ═══ FOOTER ═══ */}
       <footer className="text-center py-8">
-        <p className="text-[11px] font-medium text-[#d1d1d6]">
-          ParaBot &mdash; Built with Groq AI
+        <p className="text-[11px] font-medium text-[#d1d1d6] tracking-widest uppercase">
+          ParaBot &mdash; AI Writing Suite
         </p>
       </footer>
     </div>
